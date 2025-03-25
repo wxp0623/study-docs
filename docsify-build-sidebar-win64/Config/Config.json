@@ -1,0 +1,14 @@
+{
+  "HomePath": "D:\\documents\\projects\\docify-project\\study-docs",
+  "DisableGenerateReadmeFile": false,
+  "IgnoreFile": [
+
+  ],
+  "IgnoreDir": [
+    ".git",
+    "docsify-build-sidebar-win64"
+  ],
+  "IgnoreDirNameContain": [
+    ".assets"
+  ]
+}
