@@ -12,7 +12,7 @@ git add .
 git commit -m "%commitMsg%"
 
 :: 推送到远程仓库
-git push origin main
+git push origin master
 
 echo ==============================
 echo ✅ 代码已成功提交并推送！
