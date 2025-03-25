@@ -13,13 +13,6 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
   <!-- 箭头样式 -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
-        .then(reg => console.log('SW registered!', reg))
-        .catch(err => console.log('SW registration failed!', err));
-    }
-  </script>
 
 </head>
 
@@ -29,6 +22,7 @@
     window.$docsify = {
       repo: "https://github.com/wxp0623/study-docs",
       name: "Blog",
+      routerMode: 'history',
       // 侧边栏文档目录
       loadSidebar: "_sidebar.md",
       subMaxLevel: 2,
